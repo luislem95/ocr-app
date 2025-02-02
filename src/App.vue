@@ -1,10 +1,10 @@
 <template>
   <ion-app>
-    <OcrLive/>
+    <OCR/>
   </ion-app>
 </template>
 
 <script setup>
 import { IonApp } from '@ionic/vue';
-import OcrLive from '@/views/OcrLive.vue';
+import OCR from '@/views/OCR.vue';
 </script>

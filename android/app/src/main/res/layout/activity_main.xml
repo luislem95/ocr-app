@@ -6,7 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- WebView para cargar la UI de Ionic -->
     <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <!-- Overlay para mostrar la cámara y el texto detectado -->
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/texto_detectado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto detectado aquí"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="#AA000000"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:visibility="gone"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

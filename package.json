@@ -24,6 +24,7 @@
     "@ionic/vue-router": "^8.0.0",
     "firebase": "^11.2.0",
     "ionicons": "^7.0.0",
+    "ocrad.js": "^0.0.1",
     "vue": "^3.3.0",
     "vue-router": "^4.2.0"
   },
