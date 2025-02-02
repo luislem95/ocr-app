@@ -19,5 +19,10 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom'
+  },
+  server: {
+    host: '0.0.0.0', // Permite conexiones desde cualquier dispositivo en la red
+    port: 5173,       // Asegura que use el puerto correcto
+    strictPort: true, // Evita que cambie de puerto automáticamente
   }
 })
